@@ -18,7 +18,7 @@
     minChars      : 2,
     maxChars      : 15,
     showAvatars   : true,
-    elastic       : true,
+    elastic       : false,
     classes       : {
       autoCompleteItemActive : "active"
     },
