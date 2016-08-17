@@ -22,7 +22,7 @@ function initMentionInput(inputs){
         request_data['project_identifier'] = project_identifier;
       }
       $.ajax({
-        url: '/mention/search',
+        url: '/redmine/mention/search',
         data: request_data,
         success: function(result) {
           callback.call(this, result['users']);
